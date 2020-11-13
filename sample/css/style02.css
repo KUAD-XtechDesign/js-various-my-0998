@@ -22,7 +22,7 @@ header{
 #wave{
   width:60px;
   height: 60px;
-  background-image: url(../images/wave.png);
+  background-image: url(../images/sakana.png);
   background-size: 60px auto;
   background-position: center center;
   background-repeat: repeat-x;
@@ -88,5 +88,5 @@ img{
   left: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(to right, blue,red);
+  background: linear-gradient(to right, rgb(15, 120, 180),rgb(245, 171, 11));
 }
