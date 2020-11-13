@@ -33,8 +33,6 @@ $(function(){
 
   })
 
-
-  //Menuボタンを押した時
   $("#btn01").on("click",function(){
     $("html, body").animate({scrollTop:0}, 1000, "swing");
   })
@@ -45,6 +43,17 @@ $(function(){
 
   $("#btn03").on("click",function(){
     $("html, body").animate({scrollTop:separate*2}, 1000, "swing");
+  })
+
+  $(".img_button").on("click",function(){
+    let target = $(this).siblings(".content");
+    target.slideToggle("slow");
+
+    $("html, body").animate({scrollTop:target.offset().top}, "slow");
+  })
+
+  $(".close_button").on("click",function(){
+    $(this).parent(".content").slideUp("slow");
   })
 
 
