@@ -19,8 +19,6 @@ $(function(){
     $("#back").addClass("anime")
   }
 
-
-
   function foodAnime(){
     $("#food").addClass("anime")
   }
